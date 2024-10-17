@@ -12,3 +12,7 @@ class Solution:
             if val != 0:
                 return False
         return True
+
+
+#Time Complexity: O(n)
+#Space Complexity: O(1)
