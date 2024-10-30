@@ -15,3 +15,9 @@ class Solution:
                 res.append(num)  # append the number to the result/solution
                 if len(res) == k:  #if the result is as long as k
                     return res # return the current result
+
+
+
+# Time Complexity: O(n) 
+# Space Complexity: O(n) 
+# Bucket Sort
