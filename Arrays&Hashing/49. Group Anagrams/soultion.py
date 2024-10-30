@@ -14,11 +14,6 @@ class Solution:
         return list(res.values())
     
 
-        #Time Complexity: O(m * n)
-
-    #Extra Notes: the ord() function returns the Unicode code for a character
-    #1. Go through each string and for each make an array of 26 0s
-    #2. Go through each character in the string and increment its correspongding 0 in the array by one
-    #3. Convert count array/list into a tuple since lists cannot be keys.
-    #4. Append that key to the dictionary with that string as its value. If key is already in the dictionary, it will just add the         string     as another  value.
-    #5. Return all the values of the dictionary. Which would be all the anagrams grouped together. 
+        # Time Complexity: O(m * n)
+        # Space Complexity (m)
+        # Hash Table
