@@ -20,5 +20,6 @@ class Solution:
         return True #return TRUE otherwise
 
 
-#Time Complexity: O(n)
-#Space Complexity: O(1)
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+# Hash Table
