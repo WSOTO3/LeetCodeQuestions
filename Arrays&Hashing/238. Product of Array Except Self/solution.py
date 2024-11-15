@@ -4,7 +4,7 @@ class Solution:
 
         prefix = 1 # initialize prefix variable as 1
         for i in range(len(nums)): # looping as much times as the length of the nums list
-            res[i] = prefix #result 
+            res[i] = prefix #value at position i of res list id set equal to prefix variable value
             prefix *= nums[i] #prefix variable becomes equal to prefix times the whats in nums[i]
         postfix = 1 # postfix is initialized at 1 
         for i in range(len(nums) - 1, -1, -1): #looping backwards starting from the last number 
