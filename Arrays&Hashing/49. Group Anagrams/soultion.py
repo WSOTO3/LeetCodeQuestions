@@ -1,6 +1,6 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        res = defaultdict(list) # mapping charCount to list of Anagrams; defaultdict so when a key does not exist yet it doesnt give us an 
+        res = defaultdict(list) # mapping character count to list of Anagrams; defaultdict so when a key does not exist yet it doesnt give us an 
                                 # error
         
         for s in strs: # for every string in list of strings
@@ -12,11 +12,11 @@ class Solution:
                                               # go up  
                 
             res[tuple(count)].append(s) # append that string as a value to the specific count key in the result dictionary; made count into 
-                                        # a tuple since lists cannot be keys  *basically makes the tuple of 0s/1s a key and appends any word 
+                                        # a tuple since lists cannot be keys  *basically makes the tuple(count) of 0s/1s a key and appends any word 
                                         # that matches with that as a value
         
         print(res)    
-        return list(res.values())
+        return list(res.values()) #we dont care about the keys so we return the values(which are already grouped together)
     
 
         # Time Complexity: O(m * n)
