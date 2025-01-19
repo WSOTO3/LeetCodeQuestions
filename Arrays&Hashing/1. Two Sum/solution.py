@@ -6,4 +6,4 @@ class Solution:
             diff = target - n # the difference is the target number minus the current element
             if diff in prevMap: #if the difference is in the prevMap:
                 return [prevMap[diff], i] #return the value at the index [diff] of prevMap and the value of i(its iteration/index)
-            prevMap[n] = i # if not, set n as the key and i as the value
+            prevMap[n] = i # if not, set n as a new key in the hashmap and i as the value
