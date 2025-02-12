@@ -24,4 +24,4 @@ class Solution:
                 squares[(r // 3, c // 3)].add(board[r][c]) # and add that value to that square section 
             
 
-        return True # if no false gets returned by the end of reading the board, it is a valid sudoku board and you can return True
+        return True # if no False gets returned by the end of reading the board, it is a valid sudoku board and you can return True
