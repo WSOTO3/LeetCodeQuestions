@@ -24,6 +24,8 @@ minStack.getMin(); // return 0
 minStack.pop();
 minStack.top();    // return 2
 minStack.getMin(); // return 1
+
+
 Constraints:
 
 -2^31 <= val <= 2^31 - 1.
