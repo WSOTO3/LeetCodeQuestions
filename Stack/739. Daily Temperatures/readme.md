@@ -1,4 +1,4 @@
-<h> Daily Temperatures <h>
+Daily Temperatures
 
 You are given an array of integers temperatures where temperatures[i] represents the daily temperatures on the ith day.
 
