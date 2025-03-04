@@ -16,6 +16,7 @@ Example 2:
 Input: heights = [1,3,7]
 
 Output: 7
+
 Constraints:
 
 1 <= heights.length <= 1000.
