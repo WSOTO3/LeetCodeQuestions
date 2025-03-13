@@ -21,6 +21,7 @@ Example 2:
 Input: nums = [3,5,6,0,1,2], target = 4
 
 Output: -1
+
 Constraints:
 
 1 <= nums.length <= 1000
