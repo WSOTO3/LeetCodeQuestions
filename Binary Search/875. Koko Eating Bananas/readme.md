@@ -8,7 +8,7 @@ You may decide your bananas-per-hour eating rate of k. Each hour, you may choose
 Return the minimum integer k such that you can eat all the bananas within h hours.
 
 Example 1:
-
+  
 Input: piles = [1,4,3,2], h = 9
 
 Output: 2
