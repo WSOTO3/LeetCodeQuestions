@@ -23,6 +23,7 @@ Input: nums = [4,5,0,1,2,3]
 Output: 0
 Example 3:
 
+
 Input: nums = [4,5,6,7]
 
 Output: 4
