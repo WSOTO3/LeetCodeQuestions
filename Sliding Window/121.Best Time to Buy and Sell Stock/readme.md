@@ -12,6 +12,7 @@ Input: prices = [10,1,5,6,7,1]
 
 Output: 6
 
+
 Explanation: Buy prices[1] and sell prices[4], profit = 7 - 1 = 6.
 
 Example 2:
