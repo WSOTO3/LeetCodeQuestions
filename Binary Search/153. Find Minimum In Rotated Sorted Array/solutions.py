@@ -8,3 +8,6 @@ class Solution:
             else:
                 l = m + 1 # if not, left pointer is set to the value of m plus 1
         return nums[l] # return the value at the left pointer 
+
+#Time Complexity: O(logn)
+#Space Complexity: O(1)
