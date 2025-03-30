@@ -1,4 +1,4 @@
-Two Integer Sum II
+# Two Integer Sum II
 
 Given an array of integers numbers that is sorted in non-decreasing order.
 
@@ -13,15 +13,15 @@ O
 )
 O(1) additional space.
 
-Example 1:
+**Example 1:**
 
-Input: numbers = [1,2,3,4], target = 3
+**Input:** numbers = [1,2,3,4], target = 3
+**Output:** [1,2]
 
-Output: [1,2]
-Explanation:
+**Explanation:**
 The sum of 1 and 2 is 3. Since we are assuming a 1-indexed array, index1 = 1, index2 = 2. We return [1, 2].
 
-Constraints:
+**Constraints:**
 
 2 <= numbers.length <= 1000
 -1000 <= numbers[i] <= 1000
