@@ -1,4 +1,4 @@
-Valid Parentheses
+# Valid Parentheses
 
 You are given a string s consisting of the following characters: '(', ')', '{', '}', '[' and ']'.
 
@@ -9,22 +9,23 @@ Open brackets are closed in the correct order.
 Every close bracket has a corresponding open bracket of the same type.
 Return true if s is a valid string, and false otherwise.
 
-Example 1:
+**Example 1:**
 
-Input: s = "[]"
-Output: true
+**Input:** s = "[]"
+**Output:** true
 
-Example 2:
+**Example 2:**
 
-Input: s = "([{}])"
-Output: true
+**Input:** s = "([{}])"
+**Output:** true
 
-Example 3:
+**Example 3:**
 
-Input: s = "[(])"
-Output: false
-Explanation: The brackets are not closed in the correct order.
+**Input:** s = "[(])"
+**Output:** false
 
-Constraints:
+**Explanation:** The brackets are not closed in the correct order.
+
+**Constraints:**
 
 1 <= s.length <= 1000
