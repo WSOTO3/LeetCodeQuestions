@@ -4,16 +4,16 @@ Given two strings s and t, return true if the two strings are anagrams of each o
 
 An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
 
-Example 1:
+**Example 1:**
 
-Input: s = "racecar", t = "carrace"
+**Input:** s = "racecar", t = "carrace"
+**Output:** true
 
-Output: true
-Example 2:
+**Example 2:**
 
-Input: s = "jar", t = "jam"
+**Input:** s = "jar", t = "jam"
+**Output:** false
 
-Output: false
-Constraints:
+**Constraints:**
 
 s and t consist of lowercase English letters.
