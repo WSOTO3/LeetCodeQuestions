@@ -7,26 +7,24 @@ You may assume that every input has exactly one pair of indices i and j that sat
 
 Return the answer with the smaller index first.
 
-Example 1:
+**Example 1:**
 
-Input: 
+**Input:**
 nums = [3,4,5,6], target = 7
+**Output:** [0,1]
+**Explanation:** nums[0] + nums[1] == 7, so we return [0, 1].
 
-Output: [0,1]
-Explanation: nums[0] + nums[1] == 7, so we return [0, 1].
+**Example 2:**
 
-Example 2:
+**Input:** nums = [4,5,6], target = 10
+**Output:** [0,2]
 
-Input: nums = [4,5,6], target = 10
+**Example 3:**
 
-Output: [0,2]
-Example 3:
+**Input:** nums = [5,5], target = 10
+**Output:** [0,1]
 
-Input: nums = [5,5], target = 10
-
-Output: [0,1]
-Constraints:
-
+**Constraints:**
 2 <= nums.length <= 1000
 -10,000,000 <= nums[i] <= 10,000,000
 -10,000,000 <= target <= 10,000,000
