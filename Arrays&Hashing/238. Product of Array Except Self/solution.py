@@ -17,17 +17,3 @@ class Solution:
 
 #Time Complexity: O(n)
 #Space Complexity: O(1)
-
-#nums = [1,2,3,4] 
-# res[0] = 1, prefix = prefix * 1 (1)
-# res[1] = 1, prefix = prefix * 2 (2)
-# res[2] = 2, prefix = prefix * 3 (6)
-# res[3] = 6, prefix = prefix * 4 (24)
-
-#res = [1,1,2,6]
-        
-#res[-1] = 6, postfix = postfix * 4 (4)
-#res[-2] = 8, postfix = postfix * 3 (12)
-#res[-3] = 12, postfix = postfix * 2 (24)
-#res[-4] = 24, postfix = postfix * 1 (24)
-
