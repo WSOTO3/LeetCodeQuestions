@@ -1,4 +1,4 @@
-Car Fleet
+# Car Fleet
 
 
 There are n cars traveling to the same destination on a one-lane highway.
@@ -17,21 +17,21 @@ If a car catches up to a car fleet the moment the fleet reaches the destination,
 
 Return the number of different car fleets that will arrive at the destination.
 
-Example 1:
+**Example 1:**
 
-Input: target = 10, position = [1,4], speed = [3,2]
+**Input:** target = 10, position = [1,4], speed = [3,2]
+**Output:** 1
 
-Output: 1
-Explanation: The cars starting at 1 (speed 3) and 4 (speed 2) become a fleet, meeting each other at 10, the destination.
+**Explanation:** The cars starting at 1 (speed 3) and 4 (speed 2) become a fleet, meeting each other at 10, the destination.
 
-Example 2:
+**Example 2:**
 
-Input: target = 10, position = [4,1,0,7], speed = [2,2,1,1]
+**Input:** target = 10, position = [4,1,0,7], speed = [2,2,1,1]
+**Output:** 3
 
-Output: 3
-Explanation: The cars starting at 4 and 7 become a fleet at position 10. The cars starting at 1 and 0 never catch up to the car ahead of them. Thus, there are 3 car fleets that will arrive at the destination.
+**Explanation:** The cars starting at 4 and 7 become a fleet at position 10. The cars starting at 1 and 0 never catch up to the car ahead of them. Thus, there are 3 car fleets that will arrive at the destination.
 
-Constraints:
+**Constraints:**
 
 n == position.length == speed.length.
 1 <= n <= 1000
