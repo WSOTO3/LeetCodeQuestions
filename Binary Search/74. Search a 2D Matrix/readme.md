@@ -1,4 +1,4 @@
-Search a 2D Matrix
+# Search a 2D Matrix
 
 You are given an m x n 2-D integer array matrix and an integer target.
 
@@ -8,21 +8,17 @@ Return true if target exists within matrix or false otherwise.
 
 Can you write a solution that runs in O(log(m * n)) time?
 
-Example 1:
+**Example 1:**
 
+**Input:** matrix = [[1,2,4,8],[10,11,12,13],[14,20,30,40]], target = 10
+**Output:** true
 
+**Example 2:**
 
-Input: matrix = [[1,2,4,8],[10,11,12,13],[14,20,30,40]], target = 10
+**Input:** matrix = [[1,2,4,8],[10,11,12,13],[14,20,30,40]], target = 15
+**Output:** false
 
-Output: true
-Example 2:
-
-
-
-Input: matrix = [[1,2,4,8],[10,11,12,13],[14,20,30,40]], target = 15
-
-Output: false
-Constraints:
+**Constraints:**
 
 m == matrix.length
 n == matrix[i].length
