@@ -4,17 +4,17 @@ Design an algorithm to encode a list of strings to a single string. The encoded 
 
 Please implement encode and decode
 
-Example 1:
+**Example 1:**
 
-Input: ["neet","code","love","you"]
+**Input:** ["neet","code","love","you"]
+**Output:** ["neet","code","love","you"]
 
-Output:["neet","code","love","you"]
-Example 2:
+**Example 2:**
 
-Input: ["we","say",":","yes"]
+**Input:** ["we","say",":","yes"]
+**Output:** ["we","say",":","yes"]
 
-Output: ["we","say",":","yes"]
-Constraints:
+**Constraints:**
 
 0 <= strs.length < 100
 0 <= strs[i].length < 200
