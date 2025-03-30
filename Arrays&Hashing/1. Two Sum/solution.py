@@ -7,3 +7,6 @@ class Solution:
             if diff in prevMap: #if the difference is in the prevMap:
                 return [prevMap[diff], i] #return the value at the index [diff] of prevMap and the value of i(its iteration/index)
             prevMap[n] = i # if not, set n as a new key in the hashmap and i as the value
+
+#Time Complexity: O(n)
+#Space Complexity: O(n)
