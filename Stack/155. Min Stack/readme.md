@@ -1,4 +1,4 @@
-Minimum Stack
+# Minimum Stack
 Design a stack class that supports the push, pop, top, and getMin operations.
 
 MinStack() initializes the stack object.
@@ -9,24 +9,32 @@ int getMin() retrieves the minimum element in the stack.
 Each function should run in 
 O(1) time.
 
-Example 1:
+**Example 1:**
 
-Input: ["MinStack", "push", 1, "push", 2, "push", 0, "getMin", "pop", "top", "getMin"]
+**Input:** ["MinStack", "push", 1, "push", 2, "push", 0, "getMin", "pop", "top", "getMin"]
 
-Output: [null,null,null,null,0,null,2,1]
+**Output:** [null,null,null,null,0,null,2,1]
 
-Explanation:
+**Explanation:**
+
 MinStack minStack = new MinStack();
+
 minStack.push(1);
+
 minStack.push(2);
+
 minStack.push(0);
+
 minStack.getMin(); // return 0
+
 minStack.pop();
+
 minStack.top();    // return 2
+
 minStack.getMin(); // return 1
 
 
-Constraints:
+**Constraints:**
 
 -2^31 <= val <= 2^31 - 1.
 pop, top and getMin will always be called on non-empty stacks.
