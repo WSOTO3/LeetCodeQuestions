@@ -11,3 +11,6 @@ class Solution:
                 longest = max(length, longest) # longest will be compared each time and the bigger number between the lcurrent ongest and 
                                                # length variable will become the new longest 
         return longest #return longest 
+
+#Time Complexity: O(n)
+#Space Complexity: O(n)
