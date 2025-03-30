@@ -14,7 +14,9 @@ Board: *Look at leetcode for board example*
 
 **Example 1:**
 
-**Input:** board = 
+**Input:** 
+
+board = 
 
 [["1","2",".",".","3",".",".",".","."],
 
@@ -38,7 +40,9 @@ Board: *Look at leetcode for board example*
 
 **Example 2:**
 
-**Input:** board = 
+**Input:** 
+
+board = 
 
 [["1","2",".",".","3",".",".",".","."],
 
