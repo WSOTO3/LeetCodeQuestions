@@ -22,3 +22,6 @@ class Solution:
             i = j
             
         return res
+
+#Time Complexity: O(m) for each encode and decode function call
+#Space Complexity: O(m + n) for each encode and decode function call
