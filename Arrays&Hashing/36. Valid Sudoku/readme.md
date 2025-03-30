@@ -1,4 +1,5 @@
-Valid Sudoku
+# Valid Sudoku
+
 You are given a a 9 x 9 Sudoku board board. A Sudoku board is valid if the following rules are followed:
 
 Each row must contain the digits 1-9 without duplicates.
@@ -11,9 +12,9 @@ Note: A board does not need to be full or be solvable to be valid.
 Board: *Look at leetcode for board example*
 
 
-Example 1:
+**Example 1:**
 
-Input: board = 
+**Input:** board = 
 
 [["1","2",".",".","3",".",".",".","."],
 
@@ -33,10 +34,11 @@ Input: board =
  
  [".",".",".",".","8",".",".","7","9"]]
 
-Output: true
-Example 2:
+**Output:** true
 
-Input: board = 
+**Example 2:**
+
+**Input:** board = 
 
 [["1","2",".",".","3",".",".",".","."],
 
@@ -56,10 +58,11 @@ Input: board =
  
  [".",".",".",".","8",".",".","7","9"]]
 
-Output: false
-Explanation: There are two 1's in the top-left 3x3 sub-box.
+**Output:** false
 
-Constraints:
+**Explanation:** There are two 1's in the top-left 3x3 sub-box.
+
+**Constraints:**
 
 board.length == 9
 board[i].length == 9
