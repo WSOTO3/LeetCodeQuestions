@@ -6,17 +6,17 @@ The test cases are generated such that the answer is always unique.
 
 You may return the output in any order.
 
-Example 1:
+**Example 1:**
 
-Input: nums = [1,2,2,3,3,3], k = 2
+**Input:** nums = [1,2,2,3,3,3], k = 2
+**Output:** [2,3]
 
-Output: [2,3]
-Example 2:
+**Example 2:**
 
-Input: nums = [7,7], k = 1
+**Input:** nums = [7,7], k = 1
+**Output:** [7]
 
-Output: [7]
-Constraints:
+**Constraints:**
 
 1 <= nums.length <= 10^4.
 -1000 <= nums[i] <= 1000
