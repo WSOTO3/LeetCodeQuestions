@@ -25,3 +25,7 @@ class Solution:
             
 
         return True # if no False gets returned by the end of reading the board, it is a valid sudoku board and you can return True
+
+#Time Complexity:O(n^2)
+#Space Complexity:O(n^2)
+#Hash Set(One Pass)
