@@ -1,4 +1,4 @@
-Longest Substring Without Repeating Characters
+# Longest Substring Without Repeating Characters
 
 
 
@@ -6,20 +6,19 @@ Given a string s, find the length of the longest substring without duplicate cha
 
 A substring is a contiguous sequence of characters within a string.
 
-Example 1:
+**Example 1:**
 
-Input: s = "zxyzxyz"
+**Input:** s = "zxyzxyz"
+**Output:** 3
 
-Output: 3
-Explanation: The string "xyz" is the longest without duplicate characters.
+**Explanation:** The string "xyz" is the longest without duplicate characters.
 
-Example 2:
+**Example 2:**
 
-Input: s = "xxxx"
+**Input:** s = "xxxx"
+**Output:** 1
 
-Output: 1
-
-Constraints:
+**Constraints:**
 
 0 <= s.length <= 1000
 s may consist of printable ASCII characters.
