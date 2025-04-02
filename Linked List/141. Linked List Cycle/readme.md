@@ -7,23 +7,19 @@ Internally, index determines the index of the beginning of the cycle, if it exis
 
 Note: index is not given to you as a parameter.
 
-Example 1:
+**Example 1:**
 
+**Input:** head = [1,2,3,4], index = 1
+**Output:** true
 
+**Explanation:** There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
 
-Input: head = [1,2,3,4], index = 1
+**Example 2:**
 
-Output: true
-Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
+**Input:** head = [1,2], index = -1
+**Output:** false
 
-Example 2:
-
-
-
-Input: head = [1,2], index = -1
-
-Output: false
-Constraints:
+**Constraints:**
 
 1 <= Length of the list <= 1000.
 -1000 <= Node.val <= 1000
