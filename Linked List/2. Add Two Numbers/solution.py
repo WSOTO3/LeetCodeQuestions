@@ -29,3 +29,4 @@ class Solution:
 
 #Time Complexity:O(m + n)
 #Space Complexity: O(1) extra space and O(max(m,n)) for output list
+#where m is the length of l1 and n is the length of l2
