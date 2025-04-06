@@ -19,3 +19,4 @@ class Solution:
 
 #Time Complexity:O(n); O(logn) in a balanced tree
 #Space Complexity:O(h)
+#where is amount of nodes and h is height of tree
