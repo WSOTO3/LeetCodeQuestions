@@ -25,3 +25,7 @@ class Solution:
                 res.append(level)
                 
         return res
+
+#Time Complexity:O(n)
+#Space Complexity:O(n)
+#BFS
