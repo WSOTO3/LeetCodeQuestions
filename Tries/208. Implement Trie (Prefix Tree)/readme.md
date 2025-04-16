@@ -8,10 +8,12 @@ PrefixTree() Initializes the prefix tree object.
 void insert(String word) Inserts the string word into the prefix tree.
 boolean search(String word) Returns true if the string word is in the prefix tree (i.e., was inserted before), and false otherwise.
 boolean startsWith(String prefix) Returns true if there is a previously inserted string word that has the prefix prefix, and false otherwise.
-Example 1:
+
+**Example 1:**
 
 **Input:**
 ["Trie", "insert", "dog", "search", "dog", "search", "do", "startsWith", "do", "insert", "do", "search", "do"]
+
 **Output:**
 [null, null, true, false, true, null, true]
 
