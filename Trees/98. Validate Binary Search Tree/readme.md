@@ -18,6 +18,7 @@ Both the left and right subtrees are also binary search trees.
 **Input:** root = [1,2,3]
 **Output:** false
 
+
 **Explanation:** The root node's value is 1 but its left child's value is 2 which is greater than 1.
 
 **Constraints:**
