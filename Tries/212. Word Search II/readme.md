@@ -7,7 +7,7 @@ For a word to be present it must be possible to form the word with a path in the
 
 **Input:**
 board = [
-  ["a","b","c","d"],
+  ["a","b","c","d"], 
   ["s","a","a","t"],
   ["a","c","k","e"],
   ["a","c","d","n"]
