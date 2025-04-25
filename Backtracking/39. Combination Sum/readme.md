@@ -36,6 +36,9 @@ target = 5
 **Constraints:**
 
 All elements of nums are distinct.
+
 1 <= nums.length <= 20
+
 2 <= nums[i] <= 30
+
 2 <= target <= 30
