@@ -11,7 +11,7 @@ You may return the solution in any order.
 
 **Example 2:**
 
-**Input:** s = "a"
+**Input:** s = "a" 
 
 **Output:** [["a"]]
 
