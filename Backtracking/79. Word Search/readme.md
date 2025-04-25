@@ -8,9 +8,12 @@ For the word to be present it must be possible to form it with a path in the boa
 **Input:**
 board = [
   ["A","B","C","D"],
+  
   ["S","A","A","T"],
+  
   ["A","C","A","E"]
 ],
+
 word = "CAT"
 
 **Output:** true
