@@ -24,4 +24,4 @@ class Solution:
         return True
 
 #Time Complexity:O(n * 2^n)
-#Space Complexity:O(n^2) extra space, O(n * 2^n) for output list
+#Space Complexity:O(n) extra space, O(n * 2^n) for output list
