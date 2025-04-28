@@ -17,4 +17,5 @@ The depth of a binary tree is defined as the number of nodes along the longest p
 **Constraints:**
 
 0 <= The number of nodes in the tree <= 100.
+
 -100 <= Node.val <= 100
