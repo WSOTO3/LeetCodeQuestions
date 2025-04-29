@@ -17,6 +17,6 @@ The solution must not contain duplicate subsets. You may return the solution in 
 
 **Constraints:**
 
-1 <= nums.length <= 11
+1 <= nums.length <= 11 
 
 -20 <= nums[i] <= 20
